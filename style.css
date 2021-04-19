@@ -1,0 +1,110 @@
+
+/*
+| STYLES.CSS:
+| One stylesheet to rule them all.
+|
+| selector { property:value }
+|
+|
+*/
+
+/*------General Styles-------*/
+
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace
+  background-img:url(Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif)
+}
+
+header {
+  height: 140px;
+  background-color: gainsboro
+  background-img:url(paleturquoise)
+}
+
+.logo {
+  font-family: 'Nanum Pen Script', fantasy;
+  font-size: 72px;
+  color: blue;
+  text-align: center;
+  letter-spacing: -3;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+header h2 {
+  font-family: 'Montserrat', fantasy;
+  color: blue;
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+footer {
+  background-color: orange
+  background-img:url(palegoldenrod);
+
+}
+
+section {
+  padding: 0 25%;
+  margin: 80px 0;
+}
+
+/*------Type-------*/
+
+hi, h2, h3 {
+  font-family: 'Montserrat Alternates', Cambria;
+  color: blue;
+  text-align: center;
+  font-weight: 500;
+}
+
+hi { font-size: 28px; }
+h2 { font-size: 26px; }
+h3 { font-size: 18px; }
+
+p, li {
+  font-family: 'Montserrat', Cambria;
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+a:link { color: red; }
+a:visited { color: orange; }
+a:hover { color: aqua; }
+a:active { color: green; }
+a:hover { 
+  text-decoration: underline;
+}
+
+em {
+  font-weight: impact;
+  font-style: normal;
+}
+
+footer p {
+  color: blue;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+/* ------- Elements -------*/
+
+img, iframe {
+  width: 100%;
+  border-radius: 8px;
+  border: 1 px solid white;
+}
+
+/*------- Modifier styles -------*/
+
+.border-top {
+  padding-top: 80px;
+  border-top: 2px solid yellow;
+}
